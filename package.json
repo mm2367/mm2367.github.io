@@ -6,7 +6,7 @@
   "repository": "personal-website-milam",
   "author": "Milam Milhouse",
   "license": "MIT",
-  "homepage": "http://mm2367.github.io/personal-website-initial/",
+  "homepage": "http://mm2367.github.io",
   "dependencies": {
     "@babel/core": "^7.13.10",
     "@babel/preset-env": "^7.13.12",
