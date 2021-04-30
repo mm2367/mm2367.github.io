@@ -1,0 +1,38 @@
+.cost-of-living{
+  font-family: Georgia;
+  h2{
+    color: #0099FF;
+    font-weight: 900;
+    //font-family: 'Noto Sans JP', sans-serif;
+  }
+
+.cost-of-living-tooltip{
+  font-family: Amplitude-Regular;
+  font-size: 14px;
+
+  .title{
+    display: flex;
+    justify-content:center;
+    font-weight: 900;
+  }
+}
+  p{
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+}
+.modal-backdrop{
+  background-color: rgb(0,0,0,0.2);
+  z-index: 2;
+}
+.loading-spinner{
+  width: 150px;
+  height: 100px;
+  &_text{
+    top: 105%;
+    left: 10%;
+    color: #b5ba7e;
+    font-size: 18px;
+  }
+
+}

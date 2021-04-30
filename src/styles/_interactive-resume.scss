@@ -1,0 +1,253 @@
+@import "variables";
+@import "~bootstrap/scss/mixins/breakpoints";
+
+.interactive-resume {
+  font-family: "proxima-nova";
+  background-color: $blue;
+  z-index: 1;
+  font-size: 20px;
+
+  &_title {
+    font-weight: 700;
+    margin-bottom: 0;
+    color: black;
+    font-size: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  &_quote{
+    font-size: 24px;
+  }
+  hr {
+    height: 1px;
+    border-top: 1px solid $red;
+
+  }
+
+  &_profile-pic {
+    border-radius: 50%;
+    height: auto;
+    width: 30%;
+    max-height: 300px;
+    border: $pastel-pink 10px solid;
+    @include media-breakpoint-down(md) {
+      width: 45%;
+      object-fit: cover;
+    }
+  }
+
+  .social-icon {
+    width: 30px !important;
+    height: 30px !important;
+  }
+
+  &_education-logo {
+    width: 100px;
+    height: 100px;
+  }
+
+  .__react_component_tooltip {
+    width: 300px;
+  }
+
+  ul {
+    a{
+      color: $red;
+    }
+  }
+
+  li {
+    text-decoration: none;
+  }
+
+  h2, h4 {
+    font-family: "proxima-nova";
+
+  }
+}
+
+aside {
+  margin: 20px 0;
+  width: 120px;
+  line-height: 34px;
+  position: relative;
+  cursor: pointer;
+  user-select: none;
+  text-align: center;
+  color: white;
+  padding: 0;
+  font-size: 12px;
+
+  &:hover {
+    top: -1px;
+  }
+
+  &:active {
+    top: 1px;
+  }
+
+  &.ribbon {
+    background-color: $pastel-pink;
+    $color-ribbon: darken($pastel-pink, 5);
+
+    &:before, &:after {
+      top: 5px;
+      z-index: -10;
+    }
+
+    &:before {
+      border-color: $color-ribbon $color-ribbon $color-ribbon transparent;
+      left: -25px;
+      border-width: 17px;
+    }
+
+    &:after {
+      border-color: $color-ribbon transparent $color-ribbon $color-ribbon;
+      right: -25px;
+      border-width: 17px;
+    }
+  }
+}
+
+aside:before, aside:after {
+  content: '';
+  position: absolute;
+  height: 0;
+  width: 0;
+  border-style: solid;
+  border-width: 0;
+}
+
+.popUp {
+  height: 32px;
+  display: inline-flex;
+
+  &_canvas {
+    display: none;
+    width: 250px;
+    background-color: white;
+    color: black;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: absolute;
+    z-index: 1;
+    top: 125%;
+    left: 50%;
+    margin-left: -80px;
+
+    &-show {
+      display: inline-flex;
+    }
+
+    &:after {
+      content: '';
+      width: 0;
+      height: 0;
+      border-style: solid;
+      position: absolute;
+      border-width: 0 20px 20px 20px;
+      border-color: transparent transparent white transparent;
+      z-index: 20;
+      margin: 0 auto;
+      top: -20px;
+      left: 0;
+      right: 0;
+    }
+  }
+
+}
+
+.skill-component {
+  &:hover {
+    background-color: $green;
+    opacity: 0.5;
+  }
+
+  &_title {
+    width: 50%;
+  }
+}
+
+.leadership-experience {
+  background-color: $pastel-pink;
+  border: 1px solid black;
+  transition: filter 300ms;
+  height: 108px;
+  font-size: 1.05rem;
+
+  &:hover {
+    cursor: pointer;
+    filter: brightness(1.2);
+
+  }
+
+}
+
+.leadership-experience_dropDown {
+  top:100%;
+  left: 0;
+  background-color: $green;
+  border: $pastel-pink solid 1px;
+  //overflow: hidden;
+  position: relative;
+  height: 180px;
+  transition: height 1s ease;
+}
+
+.menu {
+  width: 100%;
+  // height: 100%;
+  display: flex;
+  color: black;
+}
+
+.menu-primary-enter {
+  top: 100%;
+  z-index: -1000;
+  display: flex;
+  height: 0px;
+}
+
+.menu-primary-enter-active {
+  top: 100%;
+  left: 0;
+  z-index: -1000;
+  display: flex;
+  height: 130px;
+  transition: height 500ms ease;
+}
+
+.menu-primary-exit {
+  top: 100%;
+  z-index: -1000;
+  position: relative;
+}
+
+.menu-primary-exit-active {
+  top: 100%;
+  left: 0;
+  position: relative;
+  z-index: -1000;
+  height: 130px;
+  transition: height 500ms ease;
+
+}
+
+.menu-primary-done {
+  top: 100%;
+  left: 0;
+  border: 1px $sorbet-pink solid;
+
+}
+
+.volunteer-container {
+  min-height: 400px;
+}
+
+.about-me {
+  font-family: "proxima-nova";
+  font-size: 20px;
+
+}

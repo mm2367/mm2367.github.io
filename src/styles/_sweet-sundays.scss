@@ -1,0 +1,69 @@
+.sweet-sundays{
+  .flex-container{
+    flex-wrap: wrap;
+    max-width: 1140px;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  h1{
+    color: $red;
+    font-size: 80px;
+    transform: translateY(-200px);
+    animation: 0.4s slideIn ease-in-out forwards 1s;
+    opacity: 0;
+  }
+  h1:before{
+    content: '';
+    background-color: $green;
+    position: absolute;
+    bottom: -15px;
+    width: 0;
+    height: 55px;
+    animation: 1.2s underline ease-in-out forwards 2.2s;
+    mix-blend-mode: screen;
+
+  }
+  @keyframes slideIn {
+    100% {
+      transform: translateY(0px);
+      opacity: 1;
+    }
+  }
+  @keyframes underline {
+    100%{
+      max-width: 100%;
+      width: 100%;
+    }
+  }
+  video{
+    object-fit: fill;
+  }
+
+  .video-overlay{
+    font-family: Georgia;
+    color: white;
+    opacity: 0;
+    font-weight: 700;
+    font-size: 18px;
+    top: 40%;
+    //left:0;
+    //width: 100%;
+  }
+  .inner-container:hover .video-overlay{
+    opacity: 1;
+    z-index: 10;
+    cursor:pointer;
+  }
+  .inner-container:hover{
+    video{
+      opacity: 0.5;
+    }
+  }
+  .recipe-container{
+    background-color: $blue;
+  }
+}
+
