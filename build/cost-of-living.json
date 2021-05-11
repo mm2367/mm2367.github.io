@@ -1,0 +1,434 @@
+[
+  {
+    "1960": 139.02,
+    "1980": 347.13,
+    "1995": 665.7,
+    "Region": "Northeast",
+    "State": "Connecticut",
+    "percent-change-from-1960": 478.85,
+    "percent-change-from-1980": 91.77253479
+  },
+  {
+    "1960": 132.16,
+    "1980": 317.75,
+    "1995": 569.53,
+    "Region": "Northeast",
+    "State": "Maine",
+    "percent-change-from-1960": 430.93,
+    "percent-change-from-1980": 79.23839496
+  },
+  {
+    "1960": 133.26,
+    "1980": 327.99,
+    "1995": 639.67,
+    "Region": "Northeast",
+    "State": "Massachusetts",
+    "percent-change-from-1960": 480.02,
+    "percent-change-from-1980": 95.02728742
+  },
+  {
+    "1960": 134.48,
+    "1980": 329.88,
+    "1995": 614.69,
+    "Region": "Northeast",
+    "State": "New Hampshire",
+    "percent-change-from-1960": 457.1,
+    "percent-change-from-1980": 86.33745604
+  },
+  {
+    "1960": 133.96,
+    "1980": 337.33,
+    "1995": 642.46,
+    "Region": "Northeast",
+    "State": "New Jersey",
+    "percent-change-from-1960": 479.6,
+    "percent-change-from-1980": 90.45445113
+  },
+  {
+    "1960": 122.97,
+    "1980": 314.65,
+    "1995": 605.2,
+    "Region": "Northeast",
+    "State": "New York",
+    "percent-change-from-1960": 492.13,
+    "percent-change-from-1980": 92.34069601
+  },
+  {
+    "1960": 123.58,
+    "1980": 312.93,
+    "1995": 558.14,
+    "Region": "Northeast",
+    "State": "Pennsylvania",
+    "percent-change-from-1960": 451.63,
+    "percent-change-from-1980": 78.3593775
+  },
+  {
+    "1960": 135.68,
+    "1980": 328.37,
+    "1995": 611.29,
+    "Region": "Northeast",
+    "State": "Rhode Island",
+    "percent-change-from-1960": 450.54,
+    "percent-change-from-1980": 86.15890611
+  },
+  {
+    "1960": 133.45,
+    "1980": 322.32,
+    "1995": 580.18,
+    "Region": "Northeast",
+    "State": "Vermont",
+    "percent-change-from-1960": 434.77,
+    "percent-change-from-1980": 80.001241
+  },
+  {
+    "1960": 115.07,
+    "1980": 316.9,
+    "1995": 586.73,
+    "Region": "Midwest",
+    "State": "Illinois",
+    "percent-change-from-1960": 509.87,
+    "percent-change-from-1980": 85.14673399
+  },
+  {
+    "1960": 116.23,
+    "1980": 307.17,
+    "1995": 557.22,
+    "Region": "Midwest",
+    "State": "Indiana",
+    "percent-change-from-1960": 479.44,
+    "percent-change-from-1980": 81.40443403
+  },
+  {
+    "1960": 117.48,
+    "1980": 312.77,
+    "1995": 551.04,
+    "Region": "Midwest",
+    "State": "Iowa",
+    "percent-change-from-1960": 469.03,
+    "percent-change-from-1980": 76.18057998
+  },
+  {
+    "1960": 117.8,
+    "1980": 312.64,
+    "1995": 560,
+    "Region": "Midwest",
+    "State": "Kansas",
+    "percent-change-from-1960": 475.4,
+    "percent-change-from-1980": 79.11975435
+  },
+  {
+    "1960": 114.57,
+    "1980": 307.56,
+    "1995": 566.21,
+    "Region": "Midwest",
+    "State": "Michigan",
+    "percent-change-from-1960": 494.2,
+    "percent-change-from-1980": 84.09741189
+  },
+  {
+    "1960": 118.91,
+    "1980": 322.06,
+    "1995": 583.98,
+    "Region": "Midwest",
+    "State": "Minnesota",
+    "percent-change-from-1960": 491.1,
+    "percent-change-from-1980": 81.32646091
+  },
+  {
+    "1960": 117.11,
+    "1980": 307.54,
+    "1995": 563.94,
+    "Region": "Midwest",
+    "State": "Missouri",
+    "percent-change-from-1960": 481.54,
+    "percent-change-from-1980": 83.37126878
+  },
+  {
+    "1960": 118.88,
+    "1980": 311.11,
+    "1995": 558.1,
+    "Region": "Midwest",
+    "State": "Nebraska",
+    "percent-change-from-1960": 469.47,
+    "percent-change-from-1980": 79.38992639
+  },
+  {
+    "1960": 118.75,
+    "1980": 311.98,
+    "1995": 550.06,
+    "Region": "Midwest",
+    "State": "North Dakota",
+    "percent-change-from-1960": 463.22,
+    "percent-change-from-1980": 76.31258414
+  },
+  {
+    "1960": 113.59,
+    "1980": 308.66,
+    "1995": 562.95,
+    "Region": "Midwest",
+    "State": "Ohio",
+    "percent-change-from-1960": 495.61,
+    "percent-change-from-1980": 82.38514871
+  },
+  {
+    "1960": 118.33,
+    "1980": 307.14,
+    "1995": 546.9,
+    "Region": "Midwest",
+    "State": "South Dakota",
+    "percent-change-from-1960": 462.18,
+    "percent-change-from-1980": 78.06212151
+  },
+  {
+    "1960": 118.49,
+    "1980": 317.49,
+    "1995": 567.95,
+    "Region": "Midwest",
+    "State": "Wisconsin",
+    "percent-change-from-1960": 479.34,
+    "percent-change-from-1980": 78.88752402
+  },
+  {
+    "1960": 105.01,
+    "1980": 277.01,
+    "1995": 502.42,
+    "Region": "South",
+    "State": "Alabama",
+    "percent-change-from-1960": 478.47,
+    "percent-change-from-1980": 81.37251363
+  },
+  {
+    "1960": 104.87,
+    "1980": 275.95,
+    "1995": 495.41,
+    "Region": "South",
+    "State": "Arkansas",
+    "percent-change-from-1960": 472.41,
+    "percent-change-from-1980": 79.52890016
+  },
+  {
+    "1960": 115.43,
+    "1980": 296.77,
+    "1995": 564.94,
+    "Region": "South",
+    "State": "Delaware",
+    "percent-change-from-1960": 489.44,
+    "percent-change-from-1980": 90.3629073
+  },
+  {
+    "1960": 106.98,
+    "1980": 285.44,
+    "1995": 522.79,
+    "Region": "South",
+    "State": "Florida",
+    "percent-change-from-1960": 488.66,
+    "percent-change-from-1980": 83.15232623
+  },
+  {
+    "1960": 105.37,
+    "1980": 279.56,
+    "1995": 522.08,
+    "Region": "South",
+    "State": "Georgia",
+    "percent-change-from-1960": 495.45,
+    "percent-change-from-1980": 86.7506081
+  },
+  {
+    "1960": 105.62,
+    "1980": 278.6,
+    "1995": 499.42,
+    "Region": "South",
+    "State": "Kentucky",
+    "percent-change-from-1960": 472.85,
+    "percent-change-from-1980": 79.26058866
+  },
+  {
+    "1960": 106.9,
+    "1980": 286.16,
+    "1995": 493.5,
+    "Region": "South",
+    "State": "Louisiana",
+    "percent-change-from-1960": 461.62,
+    "percent-change-from-1980": 72.45596869
+  },
+  {
+    "1960": 110.39,
+    "1980": 303.28,
+    "1995": 574.26,
+    "Region": "South",
+    "State": "Maryland",
+    "percent-change-from-1960": 520.2,
+    "percent-change-from-1980": 89.34977578
+  },
+  {
+    "1960": 104.73,
+    "1980": 294.43,
+    "1995": 490.17,
+    "Region": "South",
+    "State": "Mississippi",
+    "percent-change-from-1960": 468.04,
+    "percent-change-from-1980": 66.48099718
+  },
+  {
+    "1960": 103.57,
+    "1980": 277.47,
+    "1995": 515.31,
+    "Region": "South",
+    "State": "North Carolina",
+    "percent-change-from-1960": 497.55,
+    "percent-change-from-1980": 85.71737485
+  },
+  {
+    "1960": 106.72,
+    "1980": 284.57,
+    "1995": 497.92,
+    "Region": "South",
+    "State": "Oklahoma",
+    "percent-change-from-1960": 466.59,
+    "percent-change-from-1980": 74.97276593
+  },
+  {
+    "1960": 104.91,
+    "1980": 278.31,
+    "1995": 508.66,
+    "Region": "South",
+    "State": "South Carolina",
+    "percent-change-from-1960": 484.84,
+    "percent-change-from-1980": 82.76741763
+  },
+  {
+    "1960": 104.74,
+    "1980": 278.72,
+    "1995": 511.89,
+    "Region": "South",
+    "State": "Tennessee",
+    "percent-change-from-1960": 488.74,
+    "percent-change-from-1980": 83.65743398
+  },
+  {
+    "1960": 100,
+    "1980": 276.82,
+    "1995": 499.15,
+    "Region": "South",
+    "State": "Texas",
+    "percent-change-from-1960": 499.15,
+    "percent-change-from-1980": 80.31572863
+  },
+  {
+    "1960": 107,
+    "1980": 292.04,
+    "1995": 544.41,
+    "Region": "South",
+    "State": "Virginia",
+    "percent-change-from-1960": 508.81,
+    "percent-change-from-1980": 86.41624435
+  },
+  {
+    "1960": 106.49,
+    "1980": 283.16,
+    "1995": 495.53,
+    "Region": "South",
+    "State": "West Virginia",
+    "percent-change-from-1960": 465.32,
+    "percent-change-from-1980": 75
+  },
+  {
+    "1960": 117.36,
+    "1980": 296.58,
+    "1995": 513.33,
+    "Region": "West",
+    "State": "Arizona",
+    "percent-change-from-1960": 437.41,
+    "percent-change-from-1980": 73.08314789
+  },
+  {
+    "1960": 107.2,
+    "1980": 302.75,
+    "1995": 592.86,
+    "Region": "West",
+    "State": "California",
+    "percent-change-from-1960": 553.02,
+    "percent-change-from-1980": 95.82493807
+  },
+  {
+    "1960": 118.55,
+    "1980": 307.09,
+    "1995": 529.13,
+    "Region": "West",
+    "State": "Colorado",
+    "percent-change-from-1960": 446.35,
+    "percent-change-from-1980": 72.30453613
+  },
+  {
+    "1960": 116.88,
+    "1980": 289.78,
+    "1995": 496.95,
+    "Region": "West",
+    "State": "Idaho",
+    "percent-change-from-1960": 425.17,
+    "percent-change-from-1980": 71.49216647
+  },
+  {
+    "1960": 117.84,
+    "1980": 291.37,
+    "1995": 494,
+    "Region": "West",
+    "State": "Montana",
+    "percent-change-from-1960": 419.21,
+    "percent-change-from-1980": 69.54387892
+  },
+  {
+    "1960": 123.66,
+    "1980": 315.14,
+    "1995": 542.73,
+    "Region": "West",
+    "State": "Nevada",
+    "percent-change-from-1960": 438.88,
+    "percent-change-from-1980": 72.21869645
+  },
+  {
+    "1960": 116.79,
+    "1980": 288.1,
+    "1995": 502.37,
+    "Region": "West",
+    "State": "New Mexico",
+    "percent-change-from-1960": 430.16,
+    "percent-change-from-1980": 74.37348143
+  },
+  {
+    "1960": 117.14,
+    "1980": 300.03,
+    "1995": 510.11,
+    "Region": "West",
+    "State": "Oregon",
+    "percent-change-from-1960": 435.46,
+    "percent-change-from-1980": 70.0196647
+  },
+  {
+    "1960": 118.46,
+    "1980": 295.34,
+    "1995": 501.42,
+    "Region": "West",
+    "State": "Utah",
+    "percent-change-from-1960": 423.28,
+    "percent-change-from-1980": 69.77720593
+  },
+  {
+    "1960": 117.07,
+    "1980": 303.11,
+    "1995": 533.97,
+    "Region": "West",
+    "State": "Washington",
+    "percent-change-from-1960": 456.12,
+    "percent-change-from-1980": 76.16376893
+  },
+  {
+    "1960": 120.04,
+    "1980": 308.95,
+    "1995": 506.05,
+    "Region": "West",
+    "State": "Wyoming",
+    "percent-change-from-1960": 421.56,
+    "percent-change-from-1980": 63.79673086
+  }
+]

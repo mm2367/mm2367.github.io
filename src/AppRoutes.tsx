@@ -30,7 +30,7 @@ export const AppRoutes = () => {
                 <NavigationBar/>
                 <LoadingSpinner/>
                 <Route exact={true} path={'/'} component={Home}/>
-                <Route exact path={'/projects'} component={CostOfLiving}/>
+                <Route exact path={'/cost-of-living'} component={CostOfLiving}/>
                 <Route exact path={'/resume'} component={InteractiveResume}/>
                 <Route exact path={'/sweet-sundays'} component={SweetSundaysRoutes}/>
             </BrowserRouter>

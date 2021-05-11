@@ -100,7 +100,8 @@ const CostOfLiving: React.FunctionComponent<DispatchProp> = (dispatchProps: Disp
                 }, 1000)
             }
         )
-    }, []);
+        // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+    },[]);
     React.useLayoutEffect(() => {
         if (svgContainerRef) {
             const getColor = (state: string) => {
@@ -157,7 +158,6 @@ const CostOfLiving: React.FunctionComponent<DispatchProp> = (dispatchProps: Disp
                     legend.push(i);
                 }
                 const getY = (dataPoint) => {
-                    console.log(dataPoint);
                     return (dataPoint * 4) - 150
                 }
 
@@ -191,7 +191,7 @@ const CostOfLiving: React.FunctionComponent<DispatchProp> = (dispatchProps: Disp
 
             }
         }
-    }, [geographies, minWageData, costOfLivingData]);
+    }, [geographies, minWageData, costOfLivingData,heatMapScale,legendElement]);
 
     return (
         <div className={'cost-of-living'}>

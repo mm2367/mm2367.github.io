@@ -1,10 +1,11 @@
+@import "variables";
 .nav-bar {
   background-color: #f4afb3;
   position: sticky;
   top: 0;
   z-index: 3000;
   height: 90px;
- font-family: 'ambroise-std';
+  font-family: 'ambroise-std';
   font-weight: 800;
   // font-family: 'Copperplate';
   font-size: 24px;
@@ -20,9 +21,10 @@
 
   }
 
-  a {
+  a, button {
     color: white;
-    &:hover{
+
+    &:hover {
       text-decoration: none;
     }
   }
@@ -32,7 +34,43 @@
     height: 50px;
   }
 
-  .logo-header {
-    width: 25%;
+  .MuiButton-text{
+    font-family: 'ambroise-std';
+    font-weight: 800;
+    font-size: 24px;
+    text-transform: none;
+    letter-spacing: unset;
+
   }
+  .MuiButton-root{
+    transition: 0s background-color;
+    &:hover{
+      background-color: $sorbet-pink;
+      transition: 0s background-color;
+    }
+  }
+  &_drawerCanvas{
+    font-size: 16px;
+  }
+  &_projects-dropDown {
+    top:100%;
+    left: 0;
+    background-color: $red;
+    border: $pastel-pink solid 1px;
+    //overflow: hidden;
+    position: relative;
+    height: unset;
+    transition: height 1s ease;
+  }
+  .menu-primary-exit-active {
+    height: unset;
+    transition: height 250ms ease;
+
+  }
+  .menu-primary-enter-active {
+    height: unset;
+    transition: height 250ms ease;
+
+  }
+
 }

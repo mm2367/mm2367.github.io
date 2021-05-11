@@ -8,7 +8,7 @@ import {BrowserRouter} from "react-router-dom";
 export const SweetSundaysRoutes: React.FunctionComponent = () => {
     return (
         <div className={'sweet-sundays'}>
-            <BrowserRouter basename={'/personal-website-initial/'}>
+            <BrowserRouter basename={'/'}>
                 <h1 className={'d-flex justify-content-center align-items-center my-4'}>Sweet Sundays</h1>
                 <Route exact={true} path={'/sweet-sundays'} component={SweetSundays}/>
                 <Route path={'/sweet-sundays/oatmeal-cookies'} component={RecipeComponent}/>

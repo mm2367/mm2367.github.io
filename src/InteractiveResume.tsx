@@ -11,19 +11,19 @@ export const InteractiveResume: React.FunctionComponent = () => {
     const [showHeafDropDown, setShowHeafDropDown] = React.useState<boolean>(false);
     const [showCMIYDropDown, setShowCMIYDropDown] = React.useState<boolean>(false);
     const [showURMCDropDown, setShowURMCDropDown] = React.useState<boolean>(false);
-
-    const [menuHeight, setMenuHeight] = React.useState(null);
-    const calcHeight = (element) => {
-        const height = element.offsetHeight;
-        console.log(height);
-        setMenuHeight(height);
-    };
-    const handleSkillsClick = () => {
-        if (skillsRef && skillsRef.current) {
-            skillsRef.current.scrollIntoView(true);
-
-        }
-    };
+    // Will do later
+    // const [menuHeight, setMenuHeight] = React.useState(null);
+    // const calcHeight = (element) => {
+    //     const height = element.offsetHeight;
+    //     console.log(height);
+    //     setMenuHeight(height);
+    // };
+    // const handleSkillsClick = () => {
+    //     if (skillsRef && skillsRef.current) {
+    //         skillsRef.current.scrollIntoView(true);
+    //
+    //     }
+    // };
 
     return (
         <div className={'container interactive-resume mt-5 position-relative'}>
